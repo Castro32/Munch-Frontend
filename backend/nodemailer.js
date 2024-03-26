@@ -17,10 +17,10 @@ async function main() {
         });
         
 
-        const html = '<p>Hello, this is a test email.</p>'; 
+        const html = '<p>Munch Orders</p>'; 
         const info = await transporter.sendMail({
             from: 'munchhotel@gmail.com',
-            to: 'oumabarack1047@gmail.com', 
+            to: 'fidelqastro32@gmail.com,barackoduor1047@gmail.com', 
             subject: 'Hi barrack, welcome to munch hotel your order has been received and will be delivered in 15 minutes.Thank you and welcome again!!',
             html: html,
         });
